@@ -1,37 +1,25 @@
-// Bill Splitter Program
+// Basic Calculator
 
-{
-    console.log("Welcome to the Bill Splitter!!");
+let num1 = parseFloat(prompt("Enter first number:"));
+let num2 = parseFloat(prompt("Enter second number:"));
+let operator = prompt("Enter operator (+, -, *, /):");
 
-    let bill = parseInt(prompt("Enter your bill amount :"))
+let result;
 
-    if (bill <= 0 || isNaN(bill)) {
-        console.log("invalid amount , please enter the right amount.");
+if (operator === "+") {
+    result = num1 + num2;
+} else if (operator === "-") {
+    result = num1 - num2;
+} else if (operator === "*") {
+    result = num1 * num2;
+} else if (operator === "/") {
+    if (num2 !== 0) {
+        result = num1 / num2;
+    } else {
+        result = "Cannot divide by zero!";
     }
-
-    let people = parseInt(prompt("Enter number of people:"))
-
-    if (people <= 0 || isNaN(people)) {
-        console.log("invalid number of people , please enter valid number.");
-    }
-
-    let tipPersentage = parseInt(prompt("Enter tip Persentage(0 , 5 , 10 , 20):"))
-
-    if (tipPersentage < 0 || isNaN(tipPersentage)) {
-        console.log("Invalid tip Amount Persentage, Please enter again.");
-    }
-
-    let tipAmount = (tipPersentage / 100) * bill
-
-    let totalAmount = bill + tipAmount
-
-    let perPerson = totalAmount / people
-
-
-    console.log("\n......................................");
-    console.log("Tip Amount : ", tipAmount);
-    console.log("Total Bill Amount : ", totalAmount);
-    console.log("Each person should pay: ", perPerson);
-    console.log(".........................................\n");
-
+} else {
+    result = "Invalid operator!";
 }
+
+alert("Result: " + result);
