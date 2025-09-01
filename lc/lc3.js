@@ -5,38 +5,42 @@ multiline commet */
 
 /* Variables Declaration Method */
 
-// var box = "toy"
+{
+    var box = "toy"
 
-// var _box = "toys"
+    var _box = "toys"
 
-// var form_Data_Input = "inputs"
+    var form_Data_Input = "inputs"
 
-// var Form_Data = "new things!!!"
+    var Form_Data = "new things!!!"
 
-// var $hello = "Hi"
+    var $hello = "Hi"
 
-// var 1a = "abc"
+    // var 1a = "abc"
 
-// var  form-input = "formdata" // not use in javascript
+    // var form-input = "formdata" // not use in javascript
 
-// console.log(form_Data_Input);
+    console.log(form_Data_Input);
 
-// console.log(Form_Data);
+    console.log(Form_Data);
 
-// console.log($hello);
+    console.log($hello);
 
-// console.log(1a);
+    // console.log(1a);
+}
 
 
 // Javascript is Case-Sensitive Language 
 
-// var box , BOX;
+{
+    var box, BOX;
 
-// BOX = 20;
-// box = 1;
+    BOX = 20;
+    box = 1;
 
-// console.log(box);
-// console.log(BOX);
+    console.log(box);
+    console.log(BOX);
+}
 
 
 // Javascript DataTypes
@@ -67,22 +71,27 @@ Object
 
 /* Javascript String Declaration Method */
 
-// let str1 = "This is Javascript String"
-// let str2 = 'This is Javascript String'
+{
+    let str1 = "This is Javascript String"
+    let str2 = 'This is Javascript String'
+}
 
 /* Javascript Template Literals (back-tik) */
 
-// let str3 = `This
-//  is
-//  Javascript
-//   String`
+{
+    let str3 = `This
+ is
+ Javascript
+  String`}
 
 /* Javascript String Menupilation */
 
-// let str11 = "This "is" Javascript"
-// let str11 = "This 'is' Javascript"
-// let str22 = 'This is "box" '
+{
+    // let str11 = "This "is" Javascript"
+    let str11 = "This 'is' Javascript"
+    let str22 = 'This is "box" '
 
-// console.log(str11);
-// console.log(str22);
-// console.log(str3);
+    console.log(str11);
+    console.log(str22);
+    console.log(str3);
+}

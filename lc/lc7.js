@@ -3,11 +3,11 @@
 /* Template Literals With Variable Declaration */
 
 
-// {
-//   let name = "kirtan"
-//   let str = `Hello my name is ${name}`
-//   console.log(str);
-// }
+{
+  let name = "kirtan"
+  let str = `Hello my name is ${name}`
+  console.log(str);
+}
 
 /*
 
@@ -29,19 +29,18 @@ if(condition){
 
 */
 
+{
 
-// {
+  let open = false
 
-//   let open = false
+  let x = 20
+  let y = 30
 
-//   let x = 20
-//   let y = 30
+  if (x < y) {
+    console.log("shopping cart is available so shooping now.......");
+  }
 
-//   if(x < y){
-//     console.log("shopping cart is available so shooping now.......");
-//   }
-
-// }
+}
 
 
 /* if......else */
@@ -58,20 +57,20 @@ if(condition){
 
 */
 
-// {
+{
 
-//   let open = true
+  let open = true
 
-//   // let x = 20
-//   // let y = 30
+  // let x = 20
+  // let y = 30
 
-//   if(open){
-//     console.log("shopping cart is available so shooping now.......");
-//   }else{
-//     console.log("shopping mart closed!!");
-//   }
+  if (open) {
+    console.log("shopping cart is available so shooping now.......");
+  } else {
+    console.log("shopping mart closed!!");
+  }
 
-// }
+}
 
 /* if....else.....if */
 
@@ -90,32 +89,34 @@ if(condition){
 
 /* Library */
 
-// {
+{
 
-//   let book = "english"
+  let book = "english"
 
-//   if(book == "maths"){
-//     console.log("maths book available!");
-//   }else if(book == "chemistry"){
-//     console.log("chemistry book available!");
-//   }else if(book == "physics"){
-//     console.log("physics book available!");
-//   }else if(book == "drawing"){
-//     console.log("drawing book available!");
-//   }else{
-//     console.log("Book not available");
-//   }
-// }
+  if (book == "maths") {
+    console.log("maths book available!");
+  } else if (book == "chemistry") {
+    console.log("chemistry book available!");
+  } else if (book == "physics") {
+    console.log("physics book available!");
+  } else if (book == "drawing") {
+    console.log("drawing book available!");
+  } else {
+    console.log("Book not available");
+  }
+}
 
 /* switch case */
 
-// let book = "social"
+{
+  let book = "social"
 
-// switch (book) {
-//   case "maths": console.log("maths book available!"); break;
-//   case "chemistry": console.log("chemistry book available!"); break;
-//   case "physics": console.log("physics book available!"); break;
-//   case "drawing": console.log("drawing book available!"); break;
-//   case "english": console.log("english book available!"); break;
-//   default: console.log("Book not available");
-// }
+  switch (book) {
+    case "maths": console.log("maths book available!"); break;
+    case "chemistry": console.log("chemistry book available!"); break;
+    case "physics": console.log("physics book available!"); break;
+    case "drawing": console.log("drawing book available!"); break;
+    case "english": console.log("english book available!"); break;
+    default: console.log("Book not available");
+  }
+}

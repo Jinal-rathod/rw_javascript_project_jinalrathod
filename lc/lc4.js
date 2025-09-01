@@ -17,10 +17,10 @@ decrement(--)
 
 // Exmaples
 
-// {
+{
 
-    // let x = 10
-    // let y = 4
+    let x = 10
+    let y = 4
 
     // let z = x + y
     // let z = x - y
@@ -29,11 +29,11 @@ decrement(--)
     // let z = x % y
     // let z = x ** y //(10*10*10*10)
     // let z = ++x
-    // let z = --x
+    let z = --x
 
-    // console.log(z);
+    console.log(z);
 
-// }
+}
 
 // 2. Assignment Operators
 
@@ -52,31 +52,31 @@ Exponent and Assign(**=)
 
 /* Examples */
 
-// {
-    // let x = "Hello"
+{
+    let x = "Hello"
 
-    // console.log(x);
+    console.log(x);
 
-    // let a = 5
+    let a = 5
 
-    // let b = 4
+    let b = 4
 
-    // let c = a+=b // a = a + b
+    let c = a += b // a = a + b
 
-    // let d = a-=b // a = a - b
+    let d = a -= b // a = a - b
 
-    // let e = a *= b // a = a * b
+    let e = a *= b // a = a * b
 
-    // let f = a /= b // a = a / b
+    let f = a /= b // a = a / b
 
-    // let g = a %= b // a = a % b
+    let g = a %= b // a = a % b
 
-    // let h = a **= b // a = a ** b
+    let h = a **= b // a = a ** b
 
-    // console.log(c);
-    // console.log(d);
-    // console.log(e);
-    // console.log(f);
-    // console.log(g);
-    // console.log(h);
-// }
+    console.log(c);
+    console.log(d);
+    console.log(e);
+    console.log(f);
+    console.log(g);
+    console.log(h);
+}
