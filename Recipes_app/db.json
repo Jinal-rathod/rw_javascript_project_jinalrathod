@@ -1,0 +1,113 @@
+{
+   "recipes" : [
+    {
+      "id": 1,
+      "title": "Grilled Veg Sandwich",
+      "img": "./images/img_1.jpg",
+      "img_2": "./images/img_1_1.jpg",
+      "alt": "Grilled Veg Sandwich",
+      "description": "A healthy grilled sandwich packed with fresh veggies.",
+      "ingredients": [
+        "4 slices of bread", "1 boiled potato (sliced)", "1 tomato (sliced)", "1 cucumber (sliced)", "1 onion (sliced)", "Butter as needed", "Green chutney", "Salt and pepper"
+      ],
+      "steps": [
+        "Spread butter and green chutney on each bread slice.",
+        "Place layers of potato, tomato, cucumber, and onion.",
+        "Sprinkle salt and pepper.",
+        "Cover with another slice of bread.",
+        "Grill or toast until golden.",
+        "Serve hot with tomato ketchup or chutney."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cold Coffee with Ice Cream",
+      "img": "./images/img_2.jpg",
+      "img_2": "./images/img_2_2.jpg",
+      "alt": "Cold Coffee with Ice Cream",
+      "description": "Creamy cold coffee topped with ice cream—perfect refresher.",
+      "ingredients": [
+        "1 cup cold milk", "1 tbsp instant coffee", "1 tbsp sugar", "2 scoops vanilla ice cream", "Ice cubes"
+      ],
+      "steps": [
+        "In a blender, add milk, coffee, sugar, and ice cubes.",
+        "Blend until frothy.",
+        "Pour into a glass and top with a scoop of ice cream.",
+        "Sprinkle some coffee powder or chocolate syrup on top.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Veg Pizza",
+      "img": "./images/img_3.jpg",
+      "img_2": "./images/img_3_3.jpg",
+      "alt": "Veg Pizza",
+      "description": "Classic veg pizza with cheese and colorful toppings.",
+      "ingredients": [
+        "1 Pizza base", "3 tbsp pizza sauce", "½ cup mozzarella cheese", "1 small capsicum (sliced)", "1 onion (sliced)", "1 tomato (sliced)", "Oregano and chili flakes"
+      ],
+      "steps": [
+        "Spread pizza sauce on the base.",
+        "Add cheese and sliced vegetables.",
+        "Sprinkle oregano and chili flakes.",
+        "Bake at 200°C (400°F) for 10–12 minutes.",
+        "Cut and serve hot."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chocolate Mug Cake",
+      "img": "./images/img_4.jpg",
+      "img_2": "./images/img_4_4.jpg",
+      "alt": "Chocolate Mug Cake",
+      "description": "Quick chocolate mug cake ready in a minute.",
+      "ingredients": [
+        "4 tbsp flour", "2 tbsp sugar", "2 tbsp cocoa powder",  "3 tbsp milk", "2 tbsp oil", "¼ tsp baking powder"
+      ],
+      "steps": [
+        "Mix all ingredients in a large microwave-safe mug.",
+        "Stir until smooth and lump-free.",
+        "Microwave for 1–2 minutes (depending on power).",
+        "Let it cool for a minute.",
+        "Enjoy with ice cream or chocolate syrup."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Veg Wrap",
+      "img": "./images/img_5.jpg",
+      "img_2": "./images/img_5_5.jpg",
+      "alt": "Veg Wrap",
+      "description": "Tasty veg wrap for a light lunch or snack.",
+      "ingredients": [
+        "1 small onion (sliced)", "½ cup mixed veggies (carrot, capsicum, cabbage)", "1 tbsp mayonnaise or green chutney", "1 tsp chili sauce", "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Sauté vegetables in a pan with salt and pepper for 2–3 minutes.",
+        "Place the veggies on the chapati.",
+        "Add mayonnaise and chili sauce.",
+        "Roll it tightly.",
+        "Toast lightly on a pan for 1–2 minutes.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id":6,
+      "title":"Grilled Veg Sandwich",
+      "img":"./images/img_3.jpg",
+      "img_2":"./images/img_3_3.jpg",
+      "atl":"Grilled Veg Sandwich",
+      "description":"Creamy cold coffee topped with ice cream—perfect refresher.",
+      "ingredients":[
+        "1 onion (sliced)","1 tomato (sliced)","1 boiled potato (sliced)","4 slices of bread","Salt and pepper","Butter as needed","1 cucumber (sliced)","Green chutney"
+      ],
+      "steps":[
+        "Spread butter and green chutney on each bread slice.",
+        "Mix all ingredients in a large microwave-safe mug.",
+        "Grill or toast until golden.",
+        "Cover with another slice of bread."
+      ]
+    }
+  ]
+}

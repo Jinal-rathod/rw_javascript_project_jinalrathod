@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <!-- Javascript Form-->
+
+    <div class="bg-gray-400">
+      <div class="container mx-auto p-4">
+        <form
+          class="max-w-xl mx-auto p-4 border border-gray-600 rounded-lg mb-6"
+          id="studentform"
+        >
+          <h1 class="text-center font-bold text-3xl mb-2">
+            Student Management App
+          </h1>
+          <div>
+            <label
+              for="name"
+              class="block my-2 text-sm font-medium"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            />
+          </div>
+          <div>
+            <label
+              for="grid"
+              class="block my-2 text-sm font-medium "
+              >GRID</label
+            >
+            <input
+              type="number"
+              name="grid"
+              id="grid"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            />
+          </div>
+          <div>
+            <label
+              for="email"
+              class="block my-2 text-sm font-medium "
+              >Email</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="name@flowbite.com"
+            />
+          </div>
+          <div>
+            <label
+              for="age"
+              class="block my-2 text-sm font-medium "
+              >Age</label
+            >
+            <input
+              type="number"
+              name="age"
+              id="age"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            />
+          </div>
+          <div>
+            <label
+              for="mobile"
+              class="block my-2 text-sm font-medium "
+              >Mobile No</label
+            >
+            <input
+              type="tel"
+              id="mobile"
+              name="mobile"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            />
+          </div>
+          <div class="flex justify-between mt-4">
+            <span
+              class="block my-2 text-sm font-medium "
+              >Gender</span
+            >
+            <div>
+              <label
+                for="male"
+                class="my-2 text-sm font-medium "
+                >Male</label
+              >
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+              />
+            </div>
+            <div>
+              <label
+                for="female"
+                class="my-2 text-sm font-medium "
+                >Female</label
+              >
+              <input
+                type="radio"
+                name="gender"
+                id="female"
+                class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+              />
+            </div>
+          </div>
+          <div>
+            <label
+              for="courses"
+              class="block my-2 text-sm font-medium "
+              >Select your course</label
+            >
+            <select
+              id="courses"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            >
+              <option>SELECT</option>
+              <option>BCA</option>
+              <option>MCA</option>
+              <option>BSC IT</option>
+              <option>DIPLOMA</option>
+              <option>FULL STACK DEVELOPMENT</option>
+              <option>AI / ML</option>
+            </select>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex items-center mb-4">
+              <input
+                id="checkbox-1"
+                type="checkbox"
+                value=""
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2"
+              />
+              <label
+                for="checkbox-1"
+                class="ms-2 text-sm font-medium"
+                >I agree to the
+                <a
+                  href="#"
+                  class="text-blue-800 hover:underline"
+                  >terms and conditions</a
+                >.</label
+              >
+            </div>
+          </div>
+          <div>
+            <button
+              type="submit"
+              id="saveBtn"
+              class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+            >
+              Submit
+            </button>
+            <button
+              type="submit"
+              id="cancelBtn"
+              class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+
+        <!-- Tables -->
+
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table
+            class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+            id="studenttable"
+          >
+            <thead
+              class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+            >
+              <tr>
+                <th scope="col" class="px-6 py-3">Student Name</th>
+                <th scope="col" class="px-6 py-3">Student GRID</th>
+                <th scope="col" class="px-6 py-3">Student Email</th>
+                <th scope="col" class="px-6 py-3">Student Age</th>
+                <th scope="col" class="px-6 py-3">Mobile Number</th>
+                <th scope="col" class="px-6 py-3">Student Gender</th>
+                <th scope="col" class="px-6 py-3">Course</th>
+                <th scope="col" class="px-6 py-3">Action</th>
+              </tr>
+            </thead>
+            <tbody id="student_data"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="./CRUD.js"></script>
+  </body>
+</html>
