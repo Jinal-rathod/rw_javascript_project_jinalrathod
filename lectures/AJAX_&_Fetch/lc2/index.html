@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L-2</title>
+    <style>
+      body {
+        font-family: Arial;
+        margin: 20px;
+      }
+      button {
+        margin: 5px;
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      #output {
+        margin-top: 20px;
+        padding: 10px;
+        background: #f4f4f4;
+        border-radius: 8px;
+      }
+      .get {
+        background-color: #2196f3;
+        color: white;
+      }
+      .post {
+        background-color: #4caf50;
+        color: white;
+      }
+      .put {
+        background-color: #ff9800;
+        color: white;
+      }
+      .delete {
+        background-color: #f44336;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Fetch API - CRUD (GET, POST, PUT, DELETE)</h2>
+    <button class="get" id="getBtn">GET Data</button>
+    <button class="post" id="postBtn">POST Data</button>
+    <button class="put" id="putBtn">UPDATE (PUT)</button>
+    <button class="delete" id="deleteBtn">DELETE</button>
+
+    <div id="output"></div>
+
+    <script src="./ajex.js"></script>
+  </body>
+</html>

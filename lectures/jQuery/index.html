@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Complete Practice</title>
+
+    <style>
+      div.box {
+        height: 100px;
+        width: 100px;
+        margin: 5px 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+
+      .red {
+        background: red;
+      }
+
+      .green {
+        background: green;
+      }
+
+      .blue {
+        background: blue;
+      }
+
+      .animation {
+        background: black;
+        position: absolute;
+        top: 700px;
+        left: 10px;
+        color: white;
+        padding: 10px;
+      }
+
+      .myClass {
+        background: purple !important;
+        color: yellow;
+        padding: 10px;
+      }
+
+      .highlight {
+        border: 3px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Hide / Show / Toggle -->
+    <h2>jQuery Show / Hide / Toggle</h2>
+    <p id="text">This is sample text for jQuery testing.</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+
+    <hr />
+
+    <!-- Fade Effects -->
+    <h2>jQuery Fade Effects</h2>
+    <div class="box red">Box 1</div>
+    <div class="box green">Box 2</div>
+    <div class="box blue">Box 3</div>
+
+    <button id="fadein">Fade In</button>
+    <button id="fadeout">Fade Out</button>
+    <button id="fadetoggle">Fade Toggle</button>
+    <button id="fadeto">Fade To</button>
+
+    <hr />
+
+    <!-- Slide Effects -->
+    <h2>jQuery Slide Effects</h2>
+    <div
+      id="panel"
+      style="
+        width: 300px;
+        height: 100px;
+        background: orange;
+        color: white;
+        padding: 20px;
+      "
+    >
+      Slide Content Panel
+    </div>
+    <button id="slideup">Slide Up</button>
+    <button id="slidedown">Slide Down</button>
+    <button id="slidetoggle">Slide Toggle</button>
+
+    <hr />
+
+    <!-- jQuery HTML: Get/Set/Add/Remove -->
+    <h2>jQuery HTML Manipulation</h2>
+    <p id="htmlText">Original Text</p>
+
+    <button id="gettext">Get Text</button>
+    <button id="gethtml">Get HTML</button>
+    <button id="settext">Set Text</button>
+    <button id="sethtml">Set HTML</button>
+    <button id="append">Append</button>
+    <button id="prepend">Prepend</button>
+    <button id="removeElement">Remove</button>
+
+    <div id="result"></div>
+
+    <hr />
+
+    <!-- jQuery CSS Class -->
+    <h2>jQuery CSS Classes</h2>
+    <p id="classPara">This is a paragraph.</p>
+
+    <button id="addClassBtn">addClass</button>
+    <button id="removeClassBtn">removeClass</button>
+    <button id="toggleClassBtn">toggleClass</button>
+
+    <hr />
+
+    <!-- jQuery css() -->
+    <h2>jQuery CSS() Method</h2>
+    <button id="cssBtn">Change CSS</button>
+
+    <hr />
+
+    <!-- Animation -->
+    <h2>jQuery Animation</h2>
+    <button id="animBtn">Start Animation</button>
+    <div class="animation">Animate Me</div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./jquery.js"></script>
+  </body>
+</html>
