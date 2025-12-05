@@ -18,6 +18,7 @@ class Books {
     this.issueDate = null;
   }
 
+  // Issue book
   issueBook() {
     if (!this.isIssued) {
       this.isIssued = true;
@@ -28,6 +29,7 @@ class Books {
     }
   }
 
+  // Return book
   returnBook() {
     if (this.isIssued) {
       this.isIssued = false;
@@ -39,6 +41,7 @@ class Books {
     }
   }
 
+  // Check availability
   checkAvailability() {
     return this.isIssued ? "Not Available" : "Available";
   }
