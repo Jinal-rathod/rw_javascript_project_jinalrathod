@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Parking Lot System — OOPs </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <style>
+    .slot-box {
+      padding: 20px;
+      border-radius: 10px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .occupied {
+      background: #ffe0e0;
+    }
+
+    .free {
+      background: #d5ffd5;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
+<body class="container py-4">
+  <h2 class="text-center mb-4">🚗 Parking Lot Management System — OOP (4 Pillars)</h2>
+
+  <!-- Search + Filter Controls -->
+  <div class="row mb-4">
+    <div class="col-md-4">
+      <input id="searchInput" type="text" class="form-control" placeholder="Search vehicle number..."
+        onkeyup="ui.renderSlots()">
+    </div>
+
+    <div class="col-md-4">
+      <select id="filterType" class="form-select" onchange="ui.renderSlots()">
+        <option value="all">All Vehicles</option>
+        <option value="car">Car</option>
+        <option value="bike">Bike</option>
+        <option value="truck">Truck</option>
+      </select>
+    </div>
+
+    <div class="col-md-4">
+      <select id="sortBy" class="form-select" onchange="ui.renderSlots()">
+        <option value="latest">Latest First</option>
+        <option value="oldest">Oldest First</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Add Vehicle Form -->
+  <div class="card p-3 mb-4">
+    <h4>Add Vehicle</h4>
+    <div class="row g-2">
+      <div class="col-md-4"><input id="vehicleNumber" type="text" class="form-control" placeholder="Vehicle Number">
+      </div>
+      <div class="col-md-4">
+        <select id="vehicleType" class="form-select">
+          <option value="car">Car</option>
+          <option value="bike">Bike</option>
+          <option value="truck">Truck</option>
+        </select>
+      </div>
+      <div class="col-md-4"><button class="btn btn-primary w-100" id="addBtn">Add Vehicle</button></div>
+    </div>
+  </div>
+
+  <!-- Parking Slots -->
+  <h4 class="mb-3">Parking Slots</h4>
+  <div id="parkingSlots" class="row"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
